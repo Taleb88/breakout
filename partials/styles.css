@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+* canvas {
+  background-image: url("https://alllayedout.com/Backgrounds/Sick_Beach.jpg");
+  background: cover;
+}
+
+@media (min-width: 320px) {
+  * canvas {
+    margin-top: 8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  * canvas {
+    width: 30rem;
+    height: 15rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  * canvas {
+    width: 50rem;
+    height: 20rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
